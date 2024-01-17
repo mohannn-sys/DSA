@@ -75,10 +75,26 @@ int extractMax(struct MaxHeap* heap) {
     heap->arr[0] = heap->arr[heap->size - 1];
     heap->size--;
 
-    // Fix the max heap property
+    // Fix the max heap property by calling heapify
     heapify(heap, 0);
 
     return max;
+}
+
+// Function to find the maximum element in the max heap
+int findMax(struct MaxHeap* heap) {
+    if (heap->size == 0) {
+        printf("Heap is empty: Cannot find maximum element.\n");
+        return -1; // Some sentinel value indicating an error
+    }
+
+    // The maximum element is at the root
+    return heap->arr[0];
+}
+
+// Function to get the size of the max heap
+int getHeapSize(struct MaxHeap* heap) {
+    return heap->size;
 }
 
 // Function to print the elements of the max heap
@@ -103,10 +119,14 @@ int main() {
 
     printHeap(&heap);
 
+    printf("Max element: %d\n", findMax(&heap));
+
     int max = extractMax(&heap);
     printf("Extracted max element: %d\n", max);
 
     printHeap(&heap);
+
+    printf("Heap size: %d\n", getHeapSize(&heap));
 
     return 0;
 }
