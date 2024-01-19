@@ -36,3 +36,10 @@ You can perform several operations on linked lists, such as:
 
 * **Random access:** Accessing a specific node in a linked list is slower than accessing an element in an array, as you need to traverse the list from the beginning until you find the node.
 * **Memory overhead:** Each node in a linked list stores a link, which takes up additional memory compared to an array.
+
+
+**Problems related to Linked List:**
+| SI No. | Description | Link |
+|---|---|---|
+| 1 | Dynamically allocates memory to store an array of strings | [StringArray.c](https://github.com/mohannn-sys/Cprogramming/blob/main/StringArray.c) |
+| 2 | Create an independent copy of an array | [arrayCopy.c](https://github.com/mohannn-sys/Cprogramming/blob/main/arrayCopy.c) |
