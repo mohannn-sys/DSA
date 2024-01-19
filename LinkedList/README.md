@@ -41,5 +41,5 @@ You can perform several operations on linked lists, such as:
 **Problems related to Linked List:**
 | SI No. | Description | Link |
 |---|---|---|
-| 1 | Dynamically allocates memory to store an array of strings | [StringArray.c](https://github.com/mohannn-sys/Cprogramming/blob/main/StringArray.c) |
-| 2 | Create an independent copy of an array | [arrayCopy.c](https://github.com/mohannn-sys/Cprogramming/blob/main/arrayCopy.c) |
+| 1 | Cycle detection in a linked list | [cycleDetection.c.c](https://github.com/mohannn-sys/DSA/blob/main/LinkedList/cycleDetection.c) |
+| 2 | Merging two sorted linked list | [mergeTwoSortedList.c](https://github.com/mohannn-sys/DSA/blob/main/LinkedList/mergeTwoSortedList.c) |
