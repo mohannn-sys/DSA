@@ -1,5 +1,7 @@
+/*
 #include <stdio.h>
 #include <stdlib.h>
+*/
 
 // Define a Node structure
 struct Node {
