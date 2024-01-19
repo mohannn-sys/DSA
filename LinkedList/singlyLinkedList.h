@@ -88,6 +88,7 @@ int search(struct Node* head, int value) {
     return -1; // Value not found
 }
 
+/*
 int main() {
     struct Node* head = NULL;
 
@@ -116,3 +117,4 @@ int main() {
 
     return 0;
 }
+*/
