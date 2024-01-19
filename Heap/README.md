@@ -55,3 +55,7 @@ Here are some additional details about the implementation:
     - Finding the size of the heap: Maintain a separate counter or use the length of the linked list or array.
 
 
+**Problems related to Heap**
+|  SL NO |  Description |  Link |
+<----------------------------------->
+|  1 |  Merge k sorted linked list |  [mergeKSortedList.c](https://github.com/mohannn-sys/DSA/edit/main/Heap/mergeKSortedList.c) |
