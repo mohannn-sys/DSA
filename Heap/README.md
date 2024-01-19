@@ -57,5 +57,5 @@ Here are some additional details about the implementation:
 
 **Problems related to Heap**
 |  SL NO |  Description |  Link |
-<----------------------------------->
+|--------|--------------|-------|
 |  1 |  Merge k sorted linked list |  [mergeKSortedList.c](https://github.com/mohannn-sys/DSA/edit/main/Heap/mergeKSortedList.c) |
